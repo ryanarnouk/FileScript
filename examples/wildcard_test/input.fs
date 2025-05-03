@@ -1,0 +1,6 @@
+print('foo.txt == *.txt:', 'foo.txt' == '*.txt')
+print('foo.txt == foo.*:', 'foo.txt' == 'foo.*')
+print('foo.txt == *oo.t*:', 'foo.txt' == '*oo.t*')
+print('foo.txt == *foo.t*:', 'foo.txt' == '*foo.t*')
+print('foo.txt == *oo.txt*:', 'foo.txt' == '*oo.txt*')
+print('bar.txt == *.py:', 'bar.txt' == '*.py')

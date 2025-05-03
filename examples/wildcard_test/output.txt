@@ -1,0 +1,6 @@
+foo.txt == *.txt: true
+foo.txt == foo.*: true
+foo.txt == *oo.t*: true
+foo.txt == *foo.t*: true
+foo.txt == *oo.txt*: true
+bar.txt == *.py: false
